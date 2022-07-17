@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Transition name="slide">
+    <main-info :info="state.profile"/>
+  </Transition>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import json from "./json/data.json"
+import MainInfo from "@/components/MainInfo";
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: {MainInfo},
+  setup() {
+    const state = json;
+    return {
+      state
+    }
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+
 </style>

@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "name": "Андрей Мазуров",
+    "title": "Frontend разработчик",
+    "img_url": "/src/assets/avatar.jpg"
+  },
+  "experience": [
+    {
+      "date": "февраль 2022 - настоящее время",
+      "company": "claramente.ru",
+      "link": "www.claramente.ru",
+      "description": "Делал то-то"
+    }
+  ],
+  "skills": [
+    {
+      "icon_id": "html",
+      "title": "HTML"
+    },
+    {
+      "icon_id": "css",
+      "title": "CSS"
+    },
+    {
+      "icon_id": "javascript",
+      "title": "Javascript"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Социальная сеть",
+      "link": "#",
+      "technologies": [
+        {
+          "icon_id": "html",
+          "title": "HTML"
+        },
+        {
+          "icon_id": "javascript",
+          "title": "Javascript"
+        }
+      ]
+    },
+    {
+      "title": "Органайзер рабочих задач",
+      "link": "#",
+      "technologies": [
+        {
+          "icon_id": "html",
+          "title": "HTML"
+        },
+        {
+          "icon_id": "javascript",
+          "title": "Javascript"
+        }
+      ]
+    }
+  ],
+  "contacts": {
+    "title": "#mazurovandre",
+    "list": [
+      {
+        "title": "E-mail",
+        "value": "mazurovandre@gmail.com",
+        "link": "mazurovandre@gmail.com"
+      },
+      {
+        "title": "Telegram",
+        "value": "@mazurovandre",
+        "link": "@mazurovandre"
+      },
+      {
+        "title": "Linkedin",
+        "value": "mazurovandre",
+        "link": "linkedin.com/mazurovandre"
+      }
+    ]
+  }
+}
